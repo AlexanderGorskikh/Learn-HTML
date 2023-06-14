@@ -31,6 +31,16 @@ img {
 	display: block;
 }
 
+header {
+	margin-bottom: 20px;
+}
+
+main {
+	margin-bottom: 50px;
+}
+
+footer {
+}
 .header__block__navigation {
 	font-family: 'Gilroy_semibolid';
 	font-size: 14px;
@@ -73,6 +83,9 @@ img {
 	height: 50px;
 	border-radius: 50px;
 	border: none;
+	font-size: 15px;
+	line-height: 18px;
+	color: #ffffff;
 }
 
 .main__wrapper__buttonEmpty {
@@ -82,9 +95,8 @@ img {
 	background-color: #ffffff;
 	width: 140px;
 	height: 50px;
-}
-
-.footer__logo {
+	font-size: 15px;
+	line-height: 18px;
 }
 
 .container {

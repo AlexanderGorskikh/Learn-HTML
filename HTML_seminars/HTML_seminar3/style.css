@@ -55,8 +55,8 @@ footer {
 }
 
 .main__wrapper {
-	width: 1920px;
-	height: 700px;
+	/* width: 1920px;
+	height: 700px; */
 
 	background: #ffffff;
 }
@@ -64,7 +64,7 @@ footer {
 .main__title {
 	font-family: 'Gilroy_bold';
 	width: 522px;
-	height: 222px;
+	/* height: 222px; */
 
 	font-size: 60px;
 	line-height: 70px;
@@ -92,7 +92,7 @@ footer {
 	font-family: 'Gilroy_bold';
 	border: none;
 	color: #aaaaaa;
-	background-color: #ffffff;
+	background: /* #ffffff */ none;
 	width: 140px;
 	height: 50px;
 	font-size: 15px;
@@ -100,6 +100,6 @@ footer {
 }
 
 .container {
-	width: 1275px;
+	width: /* 1275px */ 1170px;
 	margin: 0 auto;
 }

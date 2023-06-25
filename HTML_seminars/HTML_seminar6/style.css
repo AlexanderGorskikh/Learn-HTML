@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+	display: block;
+}
+button {
+	border: none;
+	background-color: transparent;
+}
+
+.conteiner {
+	width: 1140px;
+	margin: auto;
+}
+
+.body {
+	width: 1600px;
+}
+
+.header {
+	background-color: #222222;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 75px;
+}
+
+.logo_search {
+	padding-left: 230px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 41px;
+}
+
+.header__navigation {
+	padding-right: 240px;
+	display: flex;
+	gap: 31px;
+}
+
+.background {
+	background: url(./img/Background.png);
+	display: flex;
+	align-items: center;
+	margin-bottom: 60px;
+}
+#FASHION {
+	font-size: 42px;
+}
+
+.pink_text {
+	color: #f16d7f;
+	font-size: 18px;
+	font-family: 'Lato';
+	font-weight: 700;
+}
+
+.background_text_block {
+	padding-left: 14px;
+	border-left: 14px solid #f16d7f;
+	margin-left: 65px;
+}
+#of_luxerious {
+	font-size: 42px;
+	font-family: 'Lato';
+	font-weight: 400;
+}
+
+.background_text {
+	color: #222;
+	font-size: 48px;
+	font-family: 'Lato';
+	font-weight: 900;
+}
+
+.offer {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 260px 180px;
+	gap: 30px;
+	margin-bottom: 96px;
+}
+.offer img {
+	opacity: 0.2;
+}
+.offer_woman {
+	position: relative;
+	background: #211616b2 70%;
+}
+
+.offer_man {
+	position: relative;
+	background: #211616b2 70%;
+}
+
+.offer_child {
+	position: relative;
+	background: #211616b2 70%;
+}
+
+.offer_accesories {
+	position: relative;
+	background: #211616b2 70%;
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+
+.offer_text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	font-family: 'Lato';
+}
+
+.fetured {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.fetured_title {
+	margin-bottom: 6px;
+	color: #222;
+	font-size: 30px;
+	font-family: Lato;
+}
+.fetured_subTitle {
+	margin-bottom: 48px;
+	color: #9f9f9f;
+	font-size: 14px;
+	font-family: Lato;
+}
+
+.fetured_items {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 30px;
+	margin-bottom: 45px;
+}
+
+.defectPicture {
+	position: relative;
+	margin-bottom: 35px;
+}
+
+.defPic {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+.fetured_items_block img {
+	margin-bottom: 35px;
+}
+
+.fetured_items_title {
+	margin-left: 18px;
+	margin-right: 18px;
+	margin-bottom: 12px;
+	color: #000;
+	font-size: 13px;
+	font-family: Lato;
+}
+.fetured_items_subTitle {
+	margin-left: 18px;
+	margin-right: 18px;
+	margin-bottom: 18px;
+	color: #5d5d5d;
+	font-size: 14px;
+	font-family: Lato;
+	font-weight: 300;
+}
+.fetured_items_price {
+	margin-left: 18px;
+	margin-bottom: 20px;
+	color: #f16d7f;
+	font-size: 16px;
+	font-family: Lato;
+}
+.items_button {
+	border: 2px solid #f26376;
+	padding: 14px 38px;
+	color: #f26376;
+	font-size: 16px;
+	font-family: Lato;
+	margin-bottom: 65px;
+}

@@ -52,7 +52,7 @@ button {
 	margin-bottom: 60px;
 }
 #FASHION {
-	font-size: 42px;
+	font-size: 3vw;
 }
 
 .pink_text {
@@ -68,7 +68,7 @@ button {
 	margin-left: 65px;
 }
 #of_luxerious {
-	font-size: 42px;
+	font-size: 3vw;
 	font-family: 'Lato';
 	font-weight: 400;
 }
@@ -199,4 +199,48 @@ button {
 	font-size: 16px;
 	font-family: Lato;
 	margin-bottom: 65px;
+}
+@media (max-width: 1024px) {
+	.conteiner {
+		width: 768px;
+	}
+	.logo_search {
+		padding-left: 35px;
+	}
+	.header__navigation {
+		padding-right: 35px;
+	}
+	.background_text {
+		font-size: 5.5vw;
+	}
+	.background_text_block {
+		padding: auto;
+	}
+	#menUnderHeaderPic {
+		width: 50%;
+	}
+	#LUXERIOUS {
+		font-size: 1vw;
+	}
+	#FASHION {
+		font-size: 3vw;
+	}
+	.offer {
+		gap: 20px;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: 1fr 0.7fr;
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+	.fetured {
+		margin-left: 16px;
+		margin-right: 16px;
+	}
+	.fetured_items {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(3, 1fr);
+		gap: 14px;
+		margin-bottom: 45px;
+	}
 }

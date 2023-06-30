@@ -30,6 +30,10 @@ button {
 	align-items: center;
 	height: 75px;
 }
+.header_block {
+	max-width: 1600px;
+	margin: auto;
+}
 
 .logo_search {
 	padding-left: 230px;
@@ -65,7 +69,6 @@ button {
 .background_text_block {
 	padding-left: 14px;
 	border-left: 14px solid #f16d7f;
-	margin-left: 65px;
 }
 #of_luxerious {
 	font-size: 3vw;
@@ -166,6 +169,7 @@ button {
 
 .fetured_items_block img {
 	margin-bottom: 35px;
+	background-color: #f7e4e2;
 }
 
 .fetured_items_title {

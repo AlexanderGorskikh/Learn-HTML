@@ -165,8 +165,11 @@ button {
 	left: 50%;
 	margin-right: -50%;
 	transform: translate(-50%, -50%);
+	display: block;
 }
-
+.fetured_items_block {
+	background-color: #f8f8f8;
+}
 .fetured_items_block img {
 	margin-bottom: 35px;
 	background-color: #f7e4e2;
@@ -220,11 +223,11 @@ button {
 	.background_text_block {
 		padding: auto;
 	}
-	#menUnderHeaderPic {
+	.menUnderHeaderPic {
 		width: 50%;
 	}
-	#LUXERIOUS {
-		font-size: 1vw;
+	#of_luxerious {
+		font-size: 5, 5vw;
 	}
 	#FASHION {
 		font-size: 3vw;
@@ -246,5 +249,60 @@ button {
 		grid-template-rows: repeat(3, 1fr);
 		gap: 14px;
 		margin-bottom: 45px;
+	}
+}
+@media (max-width: 767px) {
+	.conteiner {
+		width: 375px;
+	}
+	.logo_search {
+		padding-left: 35px;
+	}
+
+	.header__navigation {
+		padding-right: 35px;
+	}
+
+	.header__navigation_mobileDelete {
+		display: none;
+	}
+	.background {
+		height: 368px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.background_text {
+		font-size: 38px;
+	}
+	.background_text_block {
+		padding: auto;
+	}
+	#of_luxerious {
+		font-size: 5.5vw;
+	}
+	#FASHION {
+		font-size: 5.5vw;
+	}
+	.offer {
+		display: flex;
+		flex-direction: column;
+		gap: 32px;
+	}
+	.offer_accesories {
+		position: relative;
+		background: #211616b2 70%;
+	}
+
+	.fetured_items {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(6, 1fr);
+		gap: 14px;
+		margin-bottom: 45px;
+	}
+	.fetured {
+		margin-left: 8px;
+		margin-right: 8px;
 	}
 }

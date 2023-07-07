@@ -293,7 +293,11 @@ button {
 		position: relative;
 		background: #211616b2 70%;
 	}
-
+	.offer_accesories img {
+		width: 343px;
+		height: 111px;
+		object-fit: cover;
+	}
 	.fetured_items {
 		display: grid;
 		grid-template-columns: 1fr;
